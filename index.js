@@ -448,3 +448,12 @@ try{
 }) 
 
 
+
+
+app.get('/del', async (req, res) => {
+
+
+  res.send(req.headers)
+})
+
+
